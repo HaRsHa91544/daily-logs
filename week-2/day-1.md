@@ -11,3 +11,11 @@
 ## And also I wrote the algorithm for it. Below.
 
 !['day-1'](./img/day-1(2).jpeg)
+
+## One small correction in algorithm:
+```C
+if((rear+1) % size == front){
+    queue[(rear + 1) % size] = ele;
+    rear++;
+}
+```
